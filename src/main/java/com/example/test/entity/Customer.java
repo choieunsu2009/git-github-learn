@@ -21,7 +21,7 @@ public class Customer {
     private String phone;
     private String memo;
     private LocalDate createdAt;
-    // ㅊ내가 널 수정해주겠어
+    // 내가 널 수정해주겠어
     public Customer() {
 
     }
