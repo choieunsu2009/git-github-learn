@@ -21,7 +21,7 @@ public class Customer {
     private String phone;
     private String memo;
     private LocalDate createdAt;
-
+    // 주석
     public Customer() {
 
     }
