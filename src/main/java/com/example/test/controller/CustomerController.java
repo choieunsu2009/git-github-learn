@@ -13,7 +13,8 @@ import java.util.ArrayList;
 public class CustomerController {
     @Autowired
     private CustomerSer customerSer;
-
+    // 오브 콜스, 은삣삐...
+    //은삣삐, 스탑 오버 띵킹.일단 좀 걸을까?
     @GetMapping("/")
     public String asdf(Model model){
         ArrayList<Customer> all = customerSer.get();
